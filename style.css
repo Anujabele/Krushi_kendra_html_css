@@ -1,46 +1,301 @@
-*{
-    margin:0;
-    padding:0;
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.d1{
-    width:100%;
-    height:100vh;
-    background-image:url("https://images.unsplash.com/photo-1727942906827-7217f6523ed0?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size:cover;
-    background-position:center;
-    opacity:0.5;
 
-}
-.up-nav{
-    width:100%;
-    height:40px;
-    background-color:orange;
-}
-nav{
-    background-color:rgb(7, 112, 7);
+/* =========================
+   TOP BAR
+========================= */
 
+.top-bar {
+    height: 34px;
+
+    background-color: #064b2f;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 4%;
+
+    font-size: 12px;
+    font-weight: 500;
 }
-ul{
-    display:flex;
-    list-style: none;
-    justify-content: flex-end;
+
+.top-left,
+.top-right {
+    white-space: nowrap;
 }
-li{
-    padding:20px;
-    width:200px;
+
+
+/* =========================
+   MAIN NAVBAR
+========================= */
+
+.custom-navbar {
+    height: 80px;
+
+    background-color: #fafbf7;
+
+    padding: 10px 4%;
 }
-a{
-    color:white;
-    text-decoration: none;
-    
+
+
+/* =========================
+   BRAND
+========================= */
+
+.custom-navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+
+    gap: 13px;
+
+    margin: 0;
+    padding: 0;
 }
-a:hover{
-    color:rgb(219, 167, 24);
+
+
+/* Logo */
+
+.brand-logo {
+    width: 54px;
+    height: 54px;
+
+    background-color: #176b3a;
+
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
 }
-.logo{
-    
-    justify-content:center;
-    align-items:center;
+
+
+/* Brand name */
+
+.brand-name {
+    color: #164d34;
+
+    font-size: 23px;
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+
+/* =========================
+   HAMBURGER
+========================= */
+
+.custom-navbar .navbar-toggler {
+    width: 42px;
+    height: 42px;
+
+    padding: 0;
+
+    border: 1px solid #333;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;
+}
+
+.custom-navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+/* Three lines */
+
+.hamburger-line {
+    width: 21px;
+    height: 2px;
+
+    background-color: #176b3a;
+
+    display: block;
+}
+
+
+/* =========================
+   DESKTOP MENU
+========================= */
+
+.custom-navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+}
+
+
+.custom-navbar .nav-link {
+    color: #111;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    padding: 14px 18px;
+
+    border-radius: 14px;
+}
+
+
+/* Active Home */
+
+.custom-navbar .nav-link.active {
+    background-color: #eaf5ed;
+
+    color: #176b3a;
+}
+
+
+/* Hover */
+
+.custom-navbar .nav-link:hover {
+    background-color: #eaf5ed;
+
+    color: #176b3a;
+}
+
+
+/* Contact */
+
+.custom-navbar .contact-link {
+    background-color: #176b3a;
+
+    color: white !important;
+
+    padding: 14px 24px;
+}
+
+.custom-navbar .contact-link:hover {
+    background-color: #12582f;
+
+    color: white !important;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 991px) {
+
+    /* TOP BAR */
+
+    .top-bar {
+        height: 34px;
+
+        padding: 0 18px;
+
+        font-size: 10px;
+    }
+
+
+    /* NAVBAR */
+
+    .custom-navbar {
+        height: auto;
+        min-height: 50px;
+
+        padding: 8px 18px;
+    }
+
+
+    /* LOGO */
+
+    .brand-logo {
+        width: 34px;
+        height: 34px;
+
+        border-radius: 9px;
+
+        font-size: 17px;
+    }
+
+
+    /* BRAND NAME */
+
+    .brand-name {
+        font-size: 14px;
+    }
+
+
+    /* HAMBURGER */
+
+    .custom-navbar .navbar-toggler {
+        width: 29px;
+        height: 29px;
+
+        border-radius: 7px;
+
+        gap: 4px;
+    }
+
+    .hamburger-line {
+        width: 15px;
+        height: 1.5px;
+    }
+
+
+    /* MOBILE MENU */
+
+    .custom-navbar .navbar-collapse {
+        width: 100%;
+
+        margin-top: 8px;
+    }
+
+
+    .custom-navbar .navbar-nav {
+        width: 100%;
+
+        display: block;
+    }
+
+
+    .custom-navbar .nav-item {
+        width: 100%;
+    }
+
+
+    .custom-navbar .nav-link {
+        width: 100%;
+
+        font-size: 11px;
+        font-weight: 500;
+
+        padding: 10px 8px;
+
+        border-radius: 6px;
+
+        margin-bottom: 2px;
+    }
+
+
+    /* CONTACT */
+
+    .custom-navbar .contact-link {
+        padding: 10px 8px;
+
+        margin-top: 3px;
+    }
 }
