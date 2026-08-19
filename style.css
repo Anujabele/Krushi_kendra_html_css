@@ -477,6 +477,377 @@
     margin: 0;
 }
 
+.services-page {
+    background-color: #f7faf6;
+}
+
+
+/* =========================================================
+   SERVICES HERO
+========================================================= */
+
+.services-hero {
+    min-height: 55vh;
+
+    background:
+        linear-gradient(
+            rgba(6, 53, 31, 0.78),
+            rgba(6, 53, 31, 0.78)
+        ),
+        url("../assests/images/farm.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+
+
+.services-hero-content {
+    max-width: 700px;
+
+    padding: 70px 0;
+}
+
+
+.services-tag {
+    display: inline-block;
+
+    padding: 8px 16px;
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+
+    border-radius: 30px;
+
+    background-color: rgba(255, 255, 255, 0.10);
+
+    font-size: 14px;
+
+    margin-bottom: 20px;
+}
+
+
+.services-hero h1 {
+    font-size: 48px;
+
+    font-weight: 700;
+
+    line-height: 1.15;
+
+    margin-bottom: 20px;
+}
+
+
+.services-hero h1 span {
+    color: #8bd23f;
+}
+
+
+.services-hero p {
+    max-width: 650px;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    color: #edf5ef;
+
+    margin: 0;
+}
+
+
+/* =========================================================
+   SECTION HEADINGS
+========================================================= */
+
+.services-heading {
+    margin-bottom: 45px;
+}
+
+
+.services-heading h2 {
+    color: #164d34;
+
+    font-size: 38px;
+
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+
+.services-heading p {
+    color: #68756d;
+
+    font-size: 16px;
+
+    max-width: 650px;
+
+    margin: 0 auto;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   SERVICES LIST
+========================================================= */
+
+.services-list {
+    padding: 80px 0;
+}
+
+
+/* =========================================================
+   SERVICE CARD
+========================================================= */
+
+.service-card {
+    background-color: white;
+
+    border: 1px solid #e1ebe3;
+
+    border-radius: 16px;
+
+    padding: 30px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    height: 100%;
+}
+
+
+.service-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.10);
+
+    border-color: #176b3a;
+}
+
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #eaf5ed;
+
+    border-radius: 15px;
+
+    font-size: 28px;
+
+    margin-bottom: 20px;
+}
+
+
+.service-card h3 {
+    color: #164d34;
+
+    font-size: 21px;
+
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+
+.service-card p {
+    color: #68756d;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    margin: 0;
+}
+
+
+/* =========================================================
+   WHY CHOOSE US
+========================================================= */
+
+.why-us {
+    background-color: white;
+
+    padding: 80px 0;
+}
+
+
+.why-card {
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+.why-icon {
+    width: 55px;
+    height: 55px;
+
+    margin: 0 auto 18px;
+
+    border-radius: 50%;
+
+    background-color: #eaf5ed;
+
+    color: #176b3a;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 23px;
+
+    font-weight: 700;
+}
+
+
+.why-card h3 {
+    color: #164d34;
+
+    font-size: 19px;
+
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+
+.why-card p {
+    color: #68756d;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    margin: 0;
+}
+
+
+/* =========================================================
+   HOW IT WORKS
+========================================================= */
+
+.how-it-works {
+    padding: 80px 0;
+}
+
+
+.step-card {
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+.step-number {
+    color: #176b3a;
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+
+.step-card h3 {
+    color: #164d34;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+
+.step-card p {
+    color: #68756d;
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    margin: 0 auto;
+
+    max-width: 300px;
+}
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.services-cta {
+    padding: 30px 0 80px;
+}
+
+
+.cta-box {
+    background-color: #176b3a;
+
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 60px 30px;
+
+    text-align: center;
+}
+
+
+.cta-box h2 {
+    font-size: 36px;
+
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+
+.cta-box p {
+    max-width: 600px;
+
+    margin: 0 auto 25px;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    color: #e8f2eb;
+}
+
+
+.cta-buttons {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+}
+
+
+.cta-buttons .btn {
+    padding: 11px 20px;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+}
+
+
 
 
 
@@ -627,6 +998,17 @@
 
     .footer {
         padding: 55px 0 20px;
+    }
+
+    .services-hero {
+        min-height: 55vh;
+    }
+
+
+    .services-list,
+    .why-us,
+    .how-it-works {
+        padding: 90px 0;
     }
 
 }
@@ -829,6 +1211,47 @@
 
     .footer hr {
         margin: 25px 0 15px;
+    }
+
+    .services-hero {
+        min-height: 60vh;
+    }
+
+
+    .services-hero-content {
+        padding: 90px 0;
+    }
+
+
+    .services-hero h1 {
+        font-size: 58px;
+    }
+
+
+    .services-hero p {
+        font-size: 19px;
+    }
+
+
+    .services-list,
+    .why-us,
+    .how-it-works {
+        padding: 100px 0;
+    }
+
+
+    .service-card {
+        padding: 32px;
+    }
+
+
+    .cta-box {
+        padding: 70px 40px;
+    }
+
+
+    .cta-box h2 {
+        font-size: 42px;
     }
 
 }
