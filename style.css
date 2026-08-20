@@ -14,6 +14,7 @@
     padding: 0 18px;
     font-size: 10px;
     font-weight: 500;
+    
 }
 
 .top-left, .top-right {
@@ -25,6 +26,7 @@
     min-height: 50px;
     background-color: #fafbf7;
     padding: 8px 18px;
+    
 }
 
 .custom-navbar .navbar-brand {
@@ -40,47 +42,29 @@
     height: 34px;
     background-color: #176b3a;
     border-radius: 9px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-size: 17px;
 }
 
-
-/* Brand name */
-
 .brand-name {
     color: #164d34;
-
     font-size: 14px;
     font-weight: 700;
-
     white-space: nowrap;
 }
-
-
-/* =========================
-   HAMBURGER
-========================= */
 
 .custom-navbar .navbar-toggler {
     width: 29px;
     height: 29px;
-
     padding: 0;
-
     border: 1px solid #333;
-
     border-radius: 7px;
-
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
-
     gap: 4px;
 }
 
@@ -88,32 +72,19 @@
     box-shadow: none;
 }
 
-
-/* Three lines */
-
 .hamburger-line {
     width: 15px;
     height: 1.5px;
-
     background-color: #176b3a;
-
     display: block;
 }
-
-
-/* =========================
-   NAVBAR MENU
-========================= */
-
 .custom-navbar .navbar-collapse {
     width: 100%;
-
     margin-top: 8px;
 }
 
 .custom-navbar .navbar-nav {
     width: 100%;
-
     display: block;
 }
 
@@ -123,63 +94,37 @@
 
 .custom-navbar .nav-link {
     width: 100%;
-
     color: #111;
-
     font-size: 11px;
     font-weight: 500;
-
     padding: 10px 8px;
-
     border-radius: 6px;
-
     margin-bottom: 2px;
 }
 
-
-/* Active Home */
-
 .custom-navbar .nav-link.active {
     background-color: #eaf5ed;
-
     color: #176b3a;
 }
 
 
-/* Hover */
-
 .custom-navbar .nav-link:hover {
     background-color: #eaf5ed;
-
     color: #176b3a;
 }
    
 
-
-
-
-/* Contact */
-
 .custom-navbar .contact-link {
     background-color: #176b3a;
-
     color: white !important;
-
     padding: 10px 8px;
-
     margin-top: 3px;
 }
 
 .custom-navbar .contact-link:hover {
     background-color: #12582f;
-
     color: white !important;
 }
-
-
-/* =========================
-   HERO
-========================= */
 
 .hero {
     height: calc(100vh - 118px);
@@ -187,82 +132,54 @@
 
 .hero-img {
     object-fit: cover;
-
     object-position: 65% center;
 }
 
 .hero-content {
     position: relative;
-
     z-index: 2;
-
     padding-top: 100px;
 }
 
 
 .products-page {
     background-color: #f7faf6;
-
-    /*min-height: 1000vh;*/
-
-    padding-bottom: 80px;
+   /*min-height: 1000vh;*/
+   padding-bottom: 80px;
 }
 
 
-/* =========================================================
-   PRODUCTS HEADER
-========================================================= */
-
 .products-header {
     text-align: center;
-
     padding: 40px 18px 30px;
 }
 
 .products-header h1 {
     color: #164d34;
-
     font-size: 32px;
     font-weight: 700;
-
     margin-bottom: 12px;
 }
 
 .products-header p {
     max-width: 650px;
-
     margin: 0 auto;
-
     color: #5f6f65;
-
     font-size: 14px;
-
     line-height: 1.6;
 }
 
 
-/* =========================================================
-   BOOTSTRAP PRODUCT CARD
-========================================================= */
-
 .products-page .card {
     height: 100%;
-
     background-color: #ffffff;
-
     border: 1px solid #e3ebe4;
-
     border-radius: 15px;
-
     overflow: hidden;
-
     transition:
         transform 0.3s ease,
         box-shadow 0.3s ease;
 }
-
-
-/* Card Hover */
 
 .products-page .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -273,109 +190,54 @@
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
-
-/* =========================================================
-   PRODUCT IMAGE
-========================================================= */
-
 .products-page .card-img-top {
     width: 100%;
-
     height: 190px;
-
     object-fit: cover;
-
     display: block;
 }
 
-
-/* =========================================================
-   CARD BODY
-========================================================= */
-
 .products-page .card-body {
     padding: 20px;
-
     display: flex;
-
     flex-direction: column;
 }
 
-
-/* =========================================================
-   CATEGORY BADGE
-========================================================= */
-
 .products-page .badge {
     width: fit-content;
-
     background-color: #eaf5ed !important;
-
     color: #176b3a !important;
-
     font-size: 11px;
-
     font-weight: 600;
-
     padding: 6px 10px;
-
     border-radius: 20px;
 }
 
-
-/* =========================================================
-   PRODUCT NAME
-========================================================= */
-
 .products-page .card-title {
     color: #164d34;
-
     font-size: 19px;
-
     font-weight: 700;
-
     margin-bottom: 10px;
 }
 
 
-/* =========================================================
-   PRODUCT DESCRIPTION
-========================================================= */
-
 .products-page .card-text {
     color: #68756d;
-
     font-size: 14px;
-
     line-height: 1.6;
-
     margin-bottom: 18px;
 }
 
-
-/* =========================================================
-   BUY PRODUCT BUTTON
-========================================================= */
-
 .products-page .btn-success {
     width: fit-content;
-
     background-color: #176b3a;
-
     border-color: #176b3a;
-
     color: white;
-
     font-size: 14px;
-
     font-weight: 600;
-
     padding: 10px 16px;
-
     border-radius: 8px;
-
     margin-top: auto;
-
     transition:
         background-color 0.3s ease,
         transform 0.2s ease;
@@ -384,11 +246,8 @@
 
 .products-page .btn-success:hover {
     background-color: #12582f;
-
     border-color: #12582f;
-
     color: white;
-
     transform: translateY(-2px);
 }
 .footer {
@@ -398,52 +257,34 @@
     padding: 50px 0 20px;
 }
 
-
-/* Headings */
-
 .footer h3 {
     color: white;
-
     font-size: 24px;
     font-weight: 600;
-
     margin-bottom: 15px;
 }
 
 .footer h4 {
     color: white;
-
     font-size: 18px;
     font-weight: 600;
-
     margin-bottom: 18px;
 }
 
 
-/* Text */
-
 .footer p {
     font-size: 15px;
-
     line-height: 1.6;
-
     margin-bottom: 10px;
 }
 
 
-/* Links */
-
 .footer a {
     display: block;
-
     color: #dce8df;
-
     text-decoration: none;
-
     font-size: 15px;
-
     margin-bottom: 10px;
-
     transition: color 0.2s ease;
 }
 
@@ -513,21 +354,7 @@
 }
 
 
-.services-tag {
-    display: inline-block;
 
-    padding: 8px 16px;
-
-    border: 1px solid rgba(255, 255, 255, 0.35);
-
-    border-radius: 30px;
-
-    background-color: rgba(255, 255, 255, 0.10);
-
-    font-size: 14px;
-
-    margin-bottom: 20px;
-}
 
 
 .services-hero h1 {
@@ -847,6 +674,282 @@
     font-weight: 600;
 }
 
+.about-page {
+    background-color: #f7faf6;
+}
+
+
+/* =========================================================
+   ABOUT HERO
+========================================================= */
+
+.about-hero {
+    min-height: 55vh;
+
+    background:
+        linear-gradient(
+            rgba(6, 53, 31, 0.72),
+            rgba(6, 53, 31, 0.72)
+        ),
+        url("../assests/images/farm.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+
+.about-hero-content {
+    padding: 70px 18px;
+
+    max-width: 700px;
+}
+
+
+.section-label {
+    color: #5c9e35;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+
+    margin-bottom: 12px;
+}
+
+.about-hero  {
+    color: #a6d77c;
+}
+
+.about-hero h1 {
+    font-size: 42px;
+    font-weight: 700;
+
+    line-height: 1.15;
+
+    margin-bottom: 18px;
+}
+
+.about-hero h1 span {
+    color: #8bd23f;
+}
+
+.about-hero-content > p:last-child {
+    color: #edf5ef;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    max-width: 600px;
+
+    margin: 0;
+}
+
+
+/* =========================================================
+   STORY
+========================================================= */
+
+.about-story {
+    padding: 70px 0;
+}
+
+.about-story-text h2,
+.about-help h2 {
+    color: #164d34;
+
+    font-size: 32px;
+    font-weight: 700;
+
+    line-height: 1.25;
+
+    margin-bottom: 20px;
+}
+
+.about-story-text p,
+.about-help p {
+    color: #68756d;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+
+    margin-bottom: 16px;
+}
+
+.about-image,
+.about-help-image {
+    overflow: hidden;
+
+    border-radius: 16px;
+}
+
+.about-image img,
+.about-help-image img {
+    width: 100%;
+    height: 100%;
+
+    min-height: 350px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* =========================================================
+   WHAT WE OFFER
+========================================================= */
+
+.about-products {
+    background-color: white;
+
+    padding: 70px 0;
+}
+
+.about-section-heading {
+    text-align: center;
+
+    max-width: 650px;
+
+    margin: 0 auto 40px;
+}
+
+.about-section-heading h2 {
+    color: #164d34;
+
+    font-size: 32px;
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+.about-section-heading > p:last-child {
+    color: #68756d;
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    margin: 0;
+}
+
+.about-product-box {
+    height: 100%;
+
+    padding: 25px;
+
+    border: 1px solid #e1ebe3;
+
+    border-radius: 14px;
+
+    background-color: #f7faf6;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.about-product-box:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+}
+
+.about-icon {
+    font-size: 28px;
+
+    margin-bottom: 15px;
+}
+
+.about-product-box h3 {
+    color: #164d34;
+
+    font-size: 19px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+.about-product-box p {
+    color: #68756d;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    margin: 0;
+}
+
+
+/* =========================================================
+   HOW WE HELP
+========================================================= */
+
+.about-help {
+    padding: 70px 0;
+}
+
+.about-help ul {
+    padding-left: 20px;
+
+    margin: 20px 0;
+}
+
+.about-help li {
+    color: #68756d;
+
+    font-size: 15px;
+
+    margin-bottom: 10px;
+}
+
+.about-help li::marker {
+    color: #176b3a;
+}
+
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.about-cta {
+    background-color: #176b3a;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 65px 20px;
+}
+
+.about-cta h2 {
+    font-size: 32px;
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+.about-cta p {
+    color: #e6f0e9;
+
+    font-size: 15px;
+
+    margin-bottom: 25px;
+}
+
+.about-cta .btn {
+    padding: 10px 20px;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+}
 
 
 
@@ -1010,6 +1113,22 @@
     .how-it-works {
         padding: 90px 0;
     }
+
+    .about-hero-content {
+        padding: 90px 20px;
+    }
+
+    .about-hero h1 {
+        font-size: 50px;
+    }
+
+    .about-story,
+    .about-products,
+    .about-help,
+    .about-why {
+        padding: 85px 0;
+    }
+
 
 }
 
@@ -1253,5 +1372,84 @@
     .cta-box h2 {
         font-size: 42px;
     }
+    .about-hero {
+        min-height: 60vh;
+    }
+
+    .about-hero-content {
+        padding: 100px 20px;
+    }
+
+    .about-hero h1 {
+        font-size: 58px;
+    }
+
+    .about-hero-content > p:last-child {
+        font-size: 18px;
+    }
+
+    .about-story-text h2,
+    .about-help h2 {
+        font-size: 40px;
+    }
+
+    .about-section-heading h2 {
+        font-size: 38px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .about-hero {
+        min-height: 55vh;
+    }
+
+    .about-hero-content {
+        padding: 60px 18px;
+    }
+
+    .about-hero h1 {
+        font-size: 38px;
+    }
+
+    .about-hero-content > p:last-child {
+        font-size: 14px;
+    }
+
+    .about-story,
+    .about-products,
+    .about-help,
+    .about-why {
+        padding: 60px 0;
+    }
+
+    .about-story-text h2,
+    .about-help h2 {
+        font-size: 29px;
+    }
+
+    .about-section-heading h2 {
+        font-size: 29px;
+    }
+
+    .about-image img,
+    .about-help-image img {
+        min-height: 280px;
+    }
+
+    .about-cta {
+        padding: 50px 20px;
+    }
+
+    .about-cta h2 {
+        font-size: 28px;
+    }
+
 
 }
