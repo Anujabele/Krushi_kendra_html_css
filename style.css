@@ -456,24 +456,6 @@
 }
 
 
-.service-icon {
-    width: 60px;
-    height: 60px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: #eaf5ed;
-
-    border-radius: 15px;
-
-    font-size: 28px;
-
-    margin-bottom: 20px;
-}
-
-
 .service-card h3 {
     color: #164d34;
 
@@ -514,26 +496,7 @@
 }
 
 
-.why-icon {
-    width: 55px;
-    height: 55px;
 
-    margin: 0 auto 18px;
-
-    border-radius: 50%;
-
-    background-color: #eaf5ed;
-
-    color: #176b3a;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-size: 23px;
-
-    font-weight: 700;
-}
 
 
 .why-card h3 {
@@ -1361,10 +1324,7 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
-.highlight-icon {
-    font-size: 25px;
-    margin-bottom: 12px;
-}
+
 
 .home-highlight h3 {
     color: #164d34;
@@ -2237,9 +2197,7 @@
         padding: 28px;
     }
 
-    .highlight-icon {
-        font-size: 30px;
-    }
+  
 
     .home-highlight h3 {
         font-size: 19px;
